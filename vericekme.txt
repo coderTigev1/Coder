@@ -1,0 +1,11 @@
+import requests
+from bs4 import BeautifulSoup
+
+url = "https://www.trendyol.com"  # Scraping yapmak istediğiniz web sitesi
+response = requests.get(url)
+soup = BeautifulSoup(response.content, "html.parser")
+
+# Örnek: Başlık etiketlerini çekme
+basliklar = soup.find_all("h3")
+for baslik in basliklar:
+    print(baslik.text)
