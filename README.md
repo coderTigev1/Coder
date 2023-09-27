@@ -9,4 +9,4 @@ Repo genelinde
 ***Bağlı kaynaklar göreceksiniz***
 
 
-![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+![GitHub Logo](![image](https://github.com/coderTigev1/Coder/assets/146273554/13713366-146e-437d-9206-7a861d90814d))
