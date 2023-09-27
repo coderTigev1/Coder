@@ -9,4 +9,4 @@ Repo genelinde
 ***Bağlı kaynaklar göreceksiniz***
 
 
-[GitHub]([https://github.com](https://github.com/coderTigev1/Coder)https://github.com/coderTigev1/Coder)
+![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
