@@ -1,0 +1,6 @@
+metin = input("Bir cümle veya metin giriniz : ")
+
+kelimeler = metin.split() # metinleri boşluklara göre böler. !! 
+
+kelime_sayisi=len(kelimeler)
+print("Metinde ki kelime sayisi ",kelime_sayisi)

@@ -1,0 +1,12 @@
+# Veriyi bir dosyaya yazma
+with open("veriler.txt", "w") as dosya:
+    dosya.write("Merhaba\n")
+    dosya.write("Python örnekleri\n")
+    dosya.write("Orta seviye\n")
+
+# Dosyayı okuma
+with open("veriler.txt", "r") as dosya:
+    satirlar = dosya.readlines()
+
+for satir in satirlar:
+    print(satir.strip())  # Satır sonu karakterlerini kaldırma
