@@ -1,0 +1,28 @@
+import random
+
+class X:
+    alt_limit=10
+    ust_limit=99
+    limit_n=10
+    def __init__(self): self.veriler = []
+    def ekle(self,n):
+        if len(self.veriler)>= self.limit_n:
+            return -1
+        
+        if n <(self.alt_limit or n > self.ust_limit):
+            pass
+        else:
+            self.veriler.append(n)
+            
+
+        def xtest():
+            
+            x=X()
+            for n in range(20):
+                if x.ekle(random.randint(0, 100)) == -1:
+                    print("üst limite ulaşıldı ",x.veriler)
+                    break
+                
+            if __name__=="__main__":
+                xtest()
+   
